@@ -2,7 +2,15 @@
 
 A 10-LED chaser board built with a 555 timer and CD4017 counter. My first PCB design, made through Hack Club's Forge program.
 
+---
+
+![Schematic Render](Images/Schematic.png)
+
+---
+
 ![PCB Render](Images/PCB.png)
+
+---
 
 ## What it does
 
