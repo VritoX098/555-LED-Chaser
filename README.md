@@ -8,6 +8,10 @@ A 10-LED chaser board built with a 555 timer and CD4017 counter. My first PCB de
 
 ---
 
+![PCB Render](Images/pcb.png) 
+
+---
+
 ![PCB Render](Images/PCB.png)
 
 ---
