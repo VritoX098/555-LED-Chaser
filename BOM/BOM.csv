@@ -1,0 +1,11 @@
+Ref,Qty,Value,Footprint,Link,Est. Unit Price (USD),Est. Extended Price (USD)
+C1,1,1 µF,Capacitor_THT:CP_Radial_D5.0mm_P2.00mm,https://www.jameco.com/z/1-0uF-50-Volt-Radial-Capacitor-ValuePro_940164.html,0.14,0.14
+C2,1,0.01 µF,Capacitor_THT:C_Disc_D7.5mm_W2.5mm_P5.00mm,https://www.jameco.com/z/0-01uF-50-Volt-Ceramic-Disc-Capacitor-ValuePro_943206.html,0.17,0.17
+D1-D10,10,LED,LED_THT:LED_D3.0mm,https://www.digikey.com/en/products/filter/led-indication-discrete/105,0.1,1.0
+J1,1,Conn_01x02_Socket,PinHeader_1x02_P2.54mm_Vertical,https://www.digikey.com/en/products/filter/rectangular-connectors/headers-male-pins/314,0.1,0.1
+J2,1,Conn_01x01_Socket,PinHeader_1x01_P2.54mm_Vertical,https://www.digikey.com/en/products/filter/rectangular-connectors/headers-male-pins/314,0.05,0.05
+R1,1,1kΩ,R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal,https://www.digikey.com/en/products/filter/through-hole-resistors/53,0.05,0.05
+R2,1,470Ω,R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal,https://www.digikey.com/en/products/filter/through-hole-resistors/53,0.05,0.05
+RV1,1,50kΩ,Potentiometer_Vishay_T93YA_Vertical,https://www.digikey.com/en/products/detail/vishay-sfernice/T93YA503KT20/2132530,1.58,1.58
+U1,1,NE555P,DIP-8_W7.62mm,https://www.ti.com/lit/ds/symlink/ne555.pdf,0.56,0.56
+U2,1,CD4017BE,N16 (DIP-16),https://www.ti.com/lit/ds/symlink/cd4017b.pdf,1.39,1.39
