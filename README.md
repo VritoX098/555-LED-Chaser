@@ -48,7 +48,7 @@ Wanted to get into hardware and PCB design. This was the perfect beginner projec
 
 **Project:** LED Chaser (Blinky Board)  
 **Total Components:** 19  
-**Estimated Total Cost:** $5.09 (excluding shipping and PCB)
+**Estimated Total Cost:** $5.09 + 33 + 7 = 45$ (Including shipping and PCB)
 
 | Ref | Qty | Value | Footprint | Links | Unit Price | Total |
 |-----|-----|-------|-----------|-------|------------|-------|
