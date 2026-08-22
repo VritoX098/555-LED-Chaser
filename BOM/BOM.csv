@@ -9,4 +9,4 @@ R2,1,470,Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal,https://w
 RV1,1,50k,Potentiometer_THT:Potentiometer_Vishay_T93YA_Vertical,https://www.lcsc.com/product-detail/Trimmer-Potentiometers_VISHAY-T93YA503KT20_C7061697.html / https://www.digikey.co.uk/en/products/detail/bourns-inc/3296W-1-503LF/1088059,1.58,1.58
 U1,1,NE555P,Package_DIP:DIP-8_W7.62mm,https://www.lcsc.com/product-detail/Timers-Clocks_NE555P_C46749.html,0.56,0.56
 U2,1,4017,Package_DIP:DIP-16_W7.62mm,https://www.lcsc.com/product-detail/Counters-Dividers_TI-CD4017BE_C34519.html,1.39,1.39
-TOTAL,19,,,,5.09
+TOTAL,19,,,,,5.09
