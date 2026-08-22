@@ -1,11 +1,12 @@
-Ref,Qty,Value,Footprint,Link,Est. Unit Price (USD),Est. Extended Price (USD)
-C1,1,1 µF,Capacitor_THT:CP_Radial_D5.0mm_P2.00mm,https://www.jameco.com/z/1-0uF-50-Volt-Radial-Capacitor-ValuePro_940164.html,0.14,0.14
-C2,1,0.01 µF,Capacitor_THT:C_Disc_D7.5mm_W2.5mm_P5.00mm,https://www.jameco.com/z/0-01uF-50-Volt-Ceramic-Disc-Capacitor-ValuePro_943206.html,0.17,0.17
-D1-D10,10,LED,LED_THT:LED_D3.0mm,https://www.digikey.com/en/products/filter/led-indication-discrete/105,0.1,1.0
-J1,1,Conn_01x02_Socket,PinHeader_1x02_P2.54mm_Vertical,https://www.digikey.com/en/products/filter/rectangular-connectors/headers-male-pins/314,0.1,0.1
-J2,1,Conn_01x01_Socket,PinHeader_1x01_P2.54mm_Vertical,https://www.digikey.com/en/products/filter/rectangular-connectors/headers-male-pins/314,0.05,0.05
-R1,1,1kΩ,R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal,https://www.digikey.com/en/products/filter/through-hole-resistors/53,0.05,0.05
-R2,1,470Ω,R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal,https://www.digikey.com/en/products/filter/through-hole-resistors/53,0.05,0.05
-RV1,1,50kΩ,Potentiometer_Vishay_T93YA_Vertical,https://www.digikey.com/en/products/detail/vishay-sfernice/T93YA503KT20/2132530,1.58,1.58
-U1,1,NE555P,DIP-8_W7.62mm,https://www.ti.com/lit/ds/symlink/ne555.pdf,0.56,0.56
-U2,1,CD4017BE,N16 (DIP-16),https://www.ti.com/lit/ds/symlink/cd4017b.pdf,1.39,1.39
+Reference,Qty,Value,Footprint,Links,Est. Unit Price (USD),Est. Total Price (USD)
+C1,1,1 uF,Capacitor_THT:CP_Radial_D5.0mm_P2.00mm,https://www.lcsc.com/product-detail/Aluminum-Electrolytic-Capacitors-Leaded_1uF-50V_C2972183.html / https://www.digikey.com/en/products/detail/nichicon/UFW1H010MDD1TD/2538297,0.14,0.14
+C2,1,0.01 uF,Capacitor_THT:C_Disc_D7.5mm_W2.5mm_P5.00mm,https://www.lcsc.com/product-detail/Ceramic-Disc-Capacitors_0-01uF-100V_C10951.html / https://www.digikey.com/en/products/detail/kemet/C320C103M1U5TA/818097,0.17,0.17
+D1-D10,10,LED,LED_THT:LED_D3.0mm,https://www.lcsc.com/product-detail/LED-Indication-Discrete_EVERLIGHT-204-10SURC-S530-A3-L_C264302.html / https://www.digikey.com/en/products/detail/broadcom-limited/HLMP-1600-D00A2/2168775,0.1,1.0
+J1,1,Conn_01x02_Socket,Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical,https://www.lcsc.com/product-detail/Pin-Headers_C66487.html / https://www.digikey.com/en/products/detail/3m/929500-01-02-RK/1843991,0.1,0.1
+J2,1,Conn_01x01_Socket,Connector_PinHeader_2.54mm:PinHeader_1x01_P2.54mm_Vertical,https://www.lcsc.com/product-detail/Pin-Headers_C82888.html / https://www.digikey.com/en/products/detail/sullins-connector-solutions/PRPC001DAAN-RC/2776615,0.05,0.05
+R1,1,1k,Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal,https://www.lcsc.com/product-detail/Through-Hole-Resistors_1k-Ohms-1-4W_C34854.html / https://www.digikey.com/en/products/detail/yageo/CFR-25JR-52-1K/15419,0.05,0.05
+R2,1,470,Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal,https://www.lcsc.com/product-detail/Through-Hole-Resistors_470-Ohms-1-4W_C144330.html / https://www.digikey.com/en/products/detail/yageo/CFR-25JR-52-470R/15452,0.05,0.05
+RV1,1,50k,Potentiometer_THT:Potentiometer_Vishay_T93YA_Vertical,https://www.lcsc.com/product-detail/Trimmer-Potentiometers_VISHAY-T93YA503KT20_C7061697.html / https://www.digikey.com/en/products/detail/bourns/3296W-1-503LF/1218507,1.58,1.58
+U1,1,NE555P,Package_DIP:DIP-8_W7.62mm,https://www.lcsc.com/product-detail/Timers-Clocks_NE555P_C46749.html / https://www.digikey.com/en/products/detail/texas-instruments/NE555P/276523,0.56,0.56
+U2,1,4017,CD4017:N16,https://www.lcsc.com/product-detail/Counters-Dividers_TI-CD4017BE_C34519.html / https://www.digikey.com/en/products/detail/texas-instruments/CD4017BE/45855,1.39,1.39
+TOTAL,19,,,,,5.09
