@@ -42,20 +42,49 @@ Wanted to get into hardware and PCB design. This was the perfect beginner projec
 - PCB routing is harder than it looks (redid mine twice)
 
 
-## BOM
+# Bill of Materials (BOM)
 
-| Reference | Qty | Value | Footprint | Datasheet |
-|-----------|-----|-------|-----------|-----------|
-| C1 | 1 | 1 uF | Capacitor_THT:CP_Radial_D5.0mm_P2.00mm | |
-| C2 | 1 | 0.01 uF | Capacitor_THT:C_Disc_D7.5mm_W2.5mm_P5.00mm | |
-| D1-D10 | 10 | LED | LED_THT:LED_D3.0mm | |
-| J1 | 1 | Conn_01x02_Socket | Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical | |
-| J2 | 1 | Conn_01x01_Socket | Connector_PinHeader_2.54mm:PinHeader_1x01_P2.54mm_Vertical | |
-| R1 | 1 | 1k | Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal | |
-| R2 | 1 | 470 | Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal | |
-| RV1 | 1 | 50k | Potentiometer_THT:Potentiometer_Vishay_T93YA_Vertical | |
-| U1 | 1 | NE555P | Package_DIP:DIP-8_W7.62mm | [Datasheet](http://www.ti.com/lit/ds/symlink/ne555.pdf) |
-| U2 | 1 | 4017 | CD4017:N16 | [Datasheet](http://www.intersil.com/content/dam/Intersil/documents/cd40/cd4017bms-22bms.pdf) |
+**Project:** LED Chaser (Blinky Board)  
+**Total Components:** 17  
+**Estimated Total Cost:** ~$5.34 + 33$ (including shipping)
+
+| Ref | Qty | Value | Footprint | Link | Est. Price |
+|-----|-----|-------|-----------|------|------------|
+| C1 | 1 | 1 µF | Capacitor_THT:CP_Radial_D5.0mm_P2.00mm | [1µF Radial Cap](https://www.jameco.com/z/1-0uF-50-Volt-Radial-Capacitor-ValuePro_940164.html) | $0.14 |
+| C2 | 1 | 0.01 µF | Capacitor_THT:C_Disc_D7.5mm_W2.5mm_P5.00mm | [0.01µF Ceramic Disc](https://www.jameco.com/z/0-01uF-50-Volt-Ceramic-Disc-Capacitor-ValuePro_943206.html) | $0.17 |
+| D1-D10 | 10 | LED | LED_THT:LED_D3.0mm | [3mm LEDs](https://www.digikey.com/en/products/filter/led-indication-discrete/105) | ~$0.10 ea |
+| J1 | 1 | Conn_01x02_Socket | PinHeader_1x02_P2.54mm_Vertical | [1x02 Header](https://www.digikey.com/en/products/filter/rectangular-connectors/headers-male-pins/314) | $0.10 |
+| J2 | 1 | Conn_01x01_Socket | PinHeader_1x01_P2.54mm_Vertical | [1x01 Header](https://www.digikey.com/en/products/filter/rectangular-connectors/headers-male-pins/314) | $0.05 |
+| R1 | 1 | 1kΩ | R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal | [1k Resistor](https://www.digikey.com/en/products/filter/through-hole-resistors/53) | $0.05 |
+| R2 | 1 | 470Ω | R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal | [470Ω Resistor](https://www.digikey.com/en/products/filter/through-hole-resistors/53) | $0.05 |
+| RV1 | 1 | 50kΩ | Potentiometer_Vishay_T93YA_Vertical | [T93YA503KT20](https://www.digikey.com/en/products/detail/vishay-sfernice/T93YA503KT20/2132530) | $1.58 |
+| U1 | 1 | NE555P | DIP-8_W7.62mm | [NE555P](https://www.ti.com/lit/ds/symlink/ne555.pdf) | $0.56 |
+| U2 | 1 | CD4017BE | N16 (DIP-16) | [CD4017BE](https://www.ti.com/lit/ds/symlink/cd4017b.pdf) | $1.39 |
+
+
+---
+
+![Cart](Images/Cart.png)
+
+---
+
+## Cost Breakdown
+
+| Part | Cost |
+|------|------|
+| Capacitors (C1, C2) | $0.31 |
+| LEDs (x10) | ~$1.00 |
+| Resistors (R1, R2) | $0.10 |
+| Potentiometer (RV1) | $1.58 |
+| NE555P (U1) | $0.56 |
+| CD4017BE (U2) | $1.39 |
+| Pin Headers (J1, J2) | $0.15 |
+| **PCB (JLCPCB)** | ~$2.00 (for 5 boards) |
+| **Total** | **~$7.34** |
+
+> Note: The PCB cost isn't in the component BOM above because it's separate. Total project cost ends up around $7-10 depending on shipping and where you buy. Hack Club Forge covers this, so it's basically free for me lol.
+
+---
 
 ## Credits
 
