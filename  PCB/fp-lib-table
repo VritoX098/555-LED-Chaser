@@ -1,4 +1,0 @@
-(fp_lib_table
-	(version 7)
-	(lib (name "CD4017") (type "KiCad") (uri "/Users/pramis/Desktop/KiCad_Custom_Footprints/CD4017.pretty") (options "") (descr ""))
-)
